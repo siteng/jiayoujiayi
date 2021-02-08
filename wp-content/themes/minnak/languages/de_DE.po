@@ -1,0 +1,373 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-01-18 11:32+0300\n"
+"PO-Revision-Date: 2021-01-18 11:33+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_c;esc_attr__;esc_attr_e;esc_html__;"
+"esc_html_e;esc_attr;esc_attr_x;esc_html;esc_html_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: images\n"
+"X-Poedit-SearchPathExcluded-1: fonts\n"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hoppla! Diese Seite kann nicht gefunden werden."
+
+#: 404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Es sieht so aus, als wäre an dieser Stelle nichts gefunden worden. "
+"Vielleicht versuchen Sie einen der folgenden Links oder eine Suche?"
+
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Ein Gedanke zu &ldquo;%1$s&rdquo;"
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "Kommentarfunktion ist geschlossen."
+
+#: functions.php:43
+msgid "Primary Menu"
+msgstr "Hauptmenü"
+
+#: functions.php:44
+msgid "Sidebar Footer Menu"
+msgstr "Seitenleisten-Fußzeilenmenü"
+
+#: functions.php:149
+msgid "Sidebar"
+msgstr "Seitenleiste"
+
+#: functions.php:151
+msgid "Add widgets here."
+msgstr "Fügen Sie hier Widgets hinzu."
+
+#: functions.php:280
+msgid "Proudly powered by WordPress"
+msgstr "Stolz betrieben von WordPress"
+
+#: functions.php:280
+msgid "Copyright"
+msgstr "Urheberrechte"
+
+#: functions.php:302
+msgid "Theme: MiNNaK by "
+msgstr "Thema: MiNNaK von "
+
+#: header.php:26
+msgid "Loading"
+msgstr "Wird geladen"
+
+#: header.php:27
+msgid "Loading..."
+msgstr "Wird geladen…"
+
+#: header.php:31
+msgid "Skip to content"
+msgstr "Zum Inhalt springen"
+
+#: inc/customizer.php:61
+msgid "General theme settings"
+msgstr "Allgemeine Themeneinstellungen"
+
+#: inc/customizer.php:80
+msgid "Choose the theme mode"
+msgstr "Wählen Sie den Themenmodus"
+
+#: inc/customizer.php:86
+msgid "Light"
+msgstr "Licht"
+
+#: inc/customizer.php:87
+msgid "Dark"
+msgstr "Dunkel"
+
+#: inc/customizer.php:105
+msgid "How many columns should the articles be listed?"
+msgstr "Wie viele Spalten sollten die Artikel aufgelistet sein?"
+
+#: inc/customizer.php:131
+msgid "Which menu would you like to use?"
+msgstr "Welches Menü möchten Sie verwenden?"
+
+#: inc/customizer.php:137
+msgid "Only Main Menu"
+msgstr "Nur Hauptmenü"
+
+#: inc/customizer.php:138
+msgid "Only Category Menu"
+msgstr "Nur Kategoriemenü"
+
+#: inc/customizer.php:139
+msgid "Both Menus"
+msgstr "Beide Menüs"
+
+#: inc/customizer.php:157
+msgid "Show search"
+msgstr "Suche anzeigen"
+
+#: inc/customizer.php:178
+msgid "Show author bio on single post"
+msgstr "Autor Bio auf einzelnen Beitrag zeigen"
+
+#: inc/customizer.php:198
+msgid "Show footer credit"
+msgstr "Fußzeilenguthaben anzeigen"
+
+#: inc/customizer.php:227
+msgid "Footer copyright"
+msgstr "Fußzeile urheberrechte"
+
+#: inc/customizer.php:228
+msgid "Replace the footer copyright text.<br><strong>HTML</strong> is allowed!"
+msgstr ""
+"Ersetzen Sie den Copyright-Text der Fußzeile. <br><strong>HTML</strong> ist "
+"zulässig!"
+
+#: inc/customizer.php:233
+msgid "Enter custom copyright..."
+msgstr "Benutzerdefiniertes urheberrechte eingeben …"
+
+#: inc/customizer.php:291
+msgid "Social media links"
+msgstr "Social media links"
+
+#: inc/customizer.php:293
+msgid "Enter the full URL for each service to appear in the sidebar."
+msgstr ""
+"Geben Sie die vollständige URL für jeden Dienst ein, der in der Seitenleiste "
+"angezeigt werden soll."
+
+#: inc/customizer.php:310
+msgid "URL:"
+msgstr "URL:"
+
+#: inc/customizer.php:333
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer.php:343
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer.php:353
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer.php:363
+msgid "Reddit"
+msgstr "Reddit"
+
+#: inc/customizer.php:373
+msgid "Digg"
+msgstr "Digg"
+
+#: inc/customizer.php:383
+msgid "AIM"
+msgstr "AIM"
+
+#: inc/customizer.php:393
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer.php:403
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/customizer.php:413
+msgid "Behance"
+msgstr "Behance"
+
+#: inc/customizer.php:423
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/customizer.php:433
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/customizer.php:443
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: inc/customizer.php:453
+msgid "Youtube"
+msgstr "Youtube"
+
+#: inc/customizer.php:463
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/customizer.php:473
+msgid "Twitch"
+msgstr "Twitch"
+
+#: inc/customizer.php:484
+msgid "Discord"
+msgstr "Discord"
+
+#: inc/customizer.php:494
+msgid "Whatsapp"
+msgstr "Whatsapp"
+
+#: inc/customizer.php:505
+msgid "Telegram"
+msgstr "Telegram"
+
+#: inc/customizer.php:515
+msgid "Signal"
+msgstr "Signal"
+
+#: inc/customizer.php:525
+msgid "Snapchat"
+msgstr "Snapchat"
+
+#: inc/customizer.php:536
+msgid "Viber"
+msgstr "Viber"
+
+#: inc/customizer.php:547
+msgid "Codepen"
+msgstr "Codepen"
+
+#: inc/customizer.php:557
+msgid "Patreon"
+msgstr "Patreon"
+
+#: inc/customizer.php:567
+msgid "Spotify"
+msgstr "Spotify"
+
+#: inc/customizer.php:577
+msgid "Anchor-Podcast"
+msgstr "Anchor-Podcast"
+
+#: inc/customizer.php:587
+msgid "Google-Podcast"
+msgstr "Google-Podcast"
+
+#: inc/customizer.php:597
+msgid "Apple-Podcast"
+msgstr "Apple-Podcast"
+
+#: inc/customizer.php:607
+msgid "RSS"
+msgstr "RSS"
+
+#: inc/customizer.php:617
+msgid "E-mail"
+msgstr "E-mail"
+
+#: inc/template-tags.php:28
+#, php-format
+msgid "Posted on %s"
+msgstr "Gepostet am%s"
+
+#: inc/template-tags.php:41
+#, php-format
+msgid "by %s"
+msgstr "um %s"
+
+#: inc/template-tags.php:66
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"Hinterlassen Sie einen Kommentar <span class=\"screen-reader-text\"> zu %s</ "
+"span>"
+
+#: inc/template-tags.php:84 template-parts/content-page.php:43
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Bearbeiten <span class=\"screen-reader-text\">%s</span>"
+
+#: search.php:20
+#, php-format
+msgid "Search results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: searchform.php:3 searchform.php:6
+msgid "Search for:"
+msgstr "Suchen nach:"
+
+#: searchform.php:6
+msgid "Search..."
+msgstr "Suche…"
+
+#: single.php:26 single.php:33
+msgid "Previous"
+msgstr "Bisherige"
+
+#: single.php:27 single.php:34
+msgid "Next"
+msgstr "Nächster"
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: template-parts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Bereit Deinen ersten post zu veröffentlichen? <a href=\"%1$s\">Beginnen Sie "
+"hier</a>."
+
+#: template-parts/content-none.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Entschuldigung, aber nichts stimmte mit Ihren Suchbegriffen überein. Bitte "
+"versuchen Sie es erneut mit verschiedenen Schlüsselwörtern."
+
+#: template-parts/content-none.php:43
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Anscheinend können wir nicht finden, wonach Sie suchen. Vielleicht kann die "
+"Suche helfen."
+
+#: template-parts/content-page.php:29 template-parts/content.php:119
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: template-parts/content.php:64 template-parts/content.php:79
+msgid ", "
+msgstr ", "
+
+#: template-parts/content.php:97
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Lesen Sie weiter<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: template-parts/content.php:111 template-parts/content.php:113
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: template-parts/content.php:138
+msgid "Author:"
+msgstr "Verfasser:"
+
+#: template-parts/content.php:143
+msgid "Website"
+msgstr "Webseite"
+
+#: template-parts/content.php:149
+msgid "All posts"
+msgstr "Alle Beiträge"

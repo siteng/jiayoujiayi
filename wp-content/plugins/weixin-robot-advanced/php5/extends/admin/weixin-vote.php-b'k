@@ -1,0 +1,122 @@
+<?php 
+
+
+
+
+
+
+
+
+
+
+
+// 微信群发统计
+add_filter('wpjam_pages', 'weixin_robot_vote_admin_pages');
+function weixin_robot_vote_admin_pages($wpjam_pages){
+
+	$base_menu	= 'weixin-robot';
+	$subs		= array();
+	$subs[$base_menu.'-vote']		= array('menu_title' => '微信投票活动');
+	$subs[$base_menu.'-vote-add'] 	= array('menu_title' => '新建活动');
+	$subs[$base_menu.'-vote-actor'] = array('menu_title' => '参赛作品');
+	$subs[$base_menu.'-vote-actor-add'] = array('menu_title' => '新建参赛作品');
+	
+	
+	// $subs[$base_menu.'-mp-user-stats']	= array('menu_title' => '微信用户统计', 'function'=>'tab');
+
+	// foreach ($subs as $menu_slug => $sub) {
+	// 	$subs[$menu_slug]['load']		= 'weixin_robot_page_load';
+	// 	if(isset($sub['function']) && $sub['function'] == 'tab'){
+	// 		$subs[$menu_slug]['tabs']	= weixin_robot_get_page_tabs($menu_slug);
+	// 	}
+	// 	$subs[$menu_slug]['capability']	= 'manage_weixin';
+	// }
+
+	$wpjam_pages[$base_menu.'-vote'] = array(
+		'menu_title'	=> '投票系统',
+		'icon'			=> 'dashicons-universal-access',
+		'capability'	=> 'manage_weixin',
+		'position'		=> '2.1.9',
+		'subs'			=> $subs,
+	);
+	
+	return $wpjam_pages;
+}
+
+
+function weixin_robot_vote_page(){
+?>
+<h3>所有投票活动</h3>
+<?php 
+}
+
+
+function weixin_robot_vote_add_page(){
+	global $current_admin_url;
+
+?>
+<h3>新建投票活动</h3>
+<?php 
+
+
+}
+
+
+
+function weixin_robot_vote_actor_page(){
+?>
+<h3>所有参赛作品</h3>
+<?php 
+}
+
+
+
+add_action('weixin_extends_validate', 'weixin_robot_vote_activation');
+function weixin_robot_vote_activation(){
+	global $wpdb;
+
+	require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+
+	if($wpdb->get_var("show tables like '{$wpdb->weixin_votes}'") != $wpdb->weixin_votes) {
+		$sql = "
+		CREATE TABLE IF NOT EXISTS `{$wpdb->weixin_votes}` (
+		  `id` bigint(20) NOT NULL auto_increment,
+
+		  // `ref_date` date NOT NULL,
+		  // `sort` int(1) NOT NULL,
+		  // `msgid` varchar(16) NOT NULL,
+		  // `title` text NOT NULL,
+		  // `user_source` int(1) NOT NULL,
+		  // `target_user` int(10) NOT NULL,
+		  // `stat_date` date NOT NULL,
+		  // `day` int(1) NOT NULL,
+		  // `int_page_read_user` int(10) NOT NULL,
+		  // `int_page_read_count` int(10) NOT NULL,
+		  // `ori_page_read_user` int(10) NOT NULL,
+		  // `ori_page_read_count` int(10) NOT NULL,
+		  // `share_user` int(10) NOT NULL,
+		  // `share_count` int(10) NOT NULL,
+		  // `add_to_fav_user` int(10) NOT NULL,
+		  // `add_to_fav_count` int(10) NOT NULL,
+		  PRIMARY KEY  (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+		";
+ 
+		dbDelta($sql);
+	}
+
+	
+}
+
+add_filter('weixin_tables', 'weixin_robot_vote_tables' );
+function weixin_robot_vote_tables($weixin_tables){
+	$weixin_tables['weixin_robot_vote_activation'] = array(
+		'weixin_votes'		=> '微信投票活动表',
+		'weixin_vote_actor'	=> '微信投票活动参与者表'
+		
+	);
+	return $weixin_tables;
+}
+
+
+

@@ -1,0 +1,59 @@
+div.reply_item {
+	width:344px; 
+	border:1px solid #CCC;
+	float:left;
+	box-shadow:1px 1px 3px #CCC;
+	border-radius:4px;
+}
+div.reply_item a{
+	float:left; 
+	width:320px; 
+	padding:12px;
+	border-bottom:1px solid #DDD;"
+}
+
+div.reply_item a.noborder{
+	border-bottom:none;
+}
+
+div.reply_item p{
+	padding-top:12px;
+	margin: 0;
+}
+
+div.reply_item a:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+div.reply_item div.img_container{
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+div.reply_item div.big{
+	width:320px; 
+	height:160px; 
+	position:relative;
+}
+div.reply_item div.big h3{
+	color:#fff; 
+	background:rgba(0, 0, 0, 0.7);
+	margin:0; padding:8px 5px;
+	width:310px;
+	position:absolute;
+	bottom:0;
+}
+div.reply_item div.small{
+	width:40px; 
+	height:40px; 
+	float:right;
+}
+div.reply_item div.small h3{
+	margin:0; 
+	width:270px; 
+	margin-left:-280px;
+	font-size:14px;	
+}
